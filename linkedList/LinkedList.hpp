@@ -30,7 +30,7 @@ template <typename T>
 int LinkedList<T>::size() const
 {
 	/** TODO
-		Fix this method: done(untested)
+		Fix this method: done
 	*/
 	return(m_size);
 }
@@ -42,14 +42,14 @@ bool LinkedList<T>::search(T value) const
 	bool isFound = false;
 
 	/** TODO
-		Fix this method: done(untested)
+		Fix this method: done
 	*/
 	for(int i=1; i<=m_size; i++)
 	{
 		if(temp->getValue() == value)
 		{
 			isFound=true;
-			//break;
+			break;
 		}
 		else
 		{
@@ -117,7 +117,7 @@ bool LinkedList<T>::removeBack()
 	bool isRemoved = false;
 
 	/** TODO
-		Fix this method: done(untested)
+		Fix this method: done
 	*/
 	if(isEmpty() == false)
 	{
